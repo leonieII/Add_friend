@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://i.guim.co.uk/img/media/b1cf1d39219150e9cc57ce23eed8a1fdd3855c17/60_0_1800_1080/master/1800.jpg?width=1200&quality=85&auto=format&fit=max&s=6f7c041c54231e0ddfd35de3d7a5de56");
+    background-size: cover;
+}
+
+#card {
+    height: 800px;
+    width: 500px;
+    background-color: #475458;
+    border-radius: 25px;
+    padding: 60px;
+    text-align: center;
+}
+
+#card img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+#card h1 {
+    font-size: 60px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+#card h5 {
+    font-size: 25px;
+    color: red;
+    margin: 30px;
+}
+
+#card button {
+    background-color: cadetblue;
+    color: #fff;
+    height: 80px;
+    width: 300px;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
