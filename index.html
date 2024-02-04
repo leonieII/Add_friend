@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="card">
+        <img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2023/05/7-cyberpunk-2077-lucy-netrunner-monowire-build.jpg"
+            alt="Lucy">
+        <h1>Lucy</h1>
+        <h5>You may know this person</h5>
+        <div id="btn">
+            <button id="add">Add Friend</button>
+
+        </div>
+
+    </div>
+
+    <script>
+        var stat = document.querySelector("h5");
+        var addFriend = document.querySelector("#add");
+        var flag = 0;
+
+        addFriend.addEventListener("click", function () {
+            if (flag == 0) {
+                stat.innerHTML = "Friends";
+                stat.style.color = "green";
+                add.innerHTML = "Remove";
+                add.style.color = "red";
+                add.style.backgroundColor = "#dadada"
+                flag = 1;
+            }
+            else {
+                stat.innerHTML = "You may know this person";
+                stat.style.color = "red";
+                add.innerHTML = "Add Friend";
+                add.style.color = "#fff";
+                add.style.backgroundColor = "cadetblue";
+                flag = 0;
+            }
+
+
+
+        })
+
+
+    </script>
+
+</body>
+
+</html>
